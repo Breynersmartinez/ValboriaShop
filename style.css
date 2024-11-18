@@ -123,11 +123,12 @@ header.scrolled {
     animation: fadeInUp 1.5s ease forwards;
 }
 
+/*Boton contacto */
 .cta-button {
     /* fondo Boton de contato*/
     background: #e462b898;
     /**/
-    color: #f0aaf0;
+    color: #f8f5f8;
     padding: 15px 30px;
     text-decoration: none;
     font-weight: bold;
@@ -378,7 +379,8 @@ button.cta:hover{
         height: 40px;
         border: none;
         background: transparent;
-        color: #e47fdf;
+        /* Color de las tres rayitas de menu*/
+        color: #f5eff5;
         outline: none;
         font-size: 1.7em;
         cursor: pointer;
@@ -413,7 +415,9 @@ button.cta:hover{
         right: 0;
         width: 80%;
         height: 100%;
-        background-color: #c91f6e;
+        /* Fondo la lista que se abre cuando se hace click en 
+        en las tres rayitas*/
+        background-color: #ee62b6;
         color: #ffffff;
         padding: 46px;
         flex-direction: column;
@@ -436,6 +440,7 @@ button.cta:hover{
         color: #fff;
     }
 }
+
 
 
 /* Seccion mapa */
