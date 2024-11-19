@@ -71,3 +71,7 @@ function leerMas(){
 document.querySelector('.menu-toggle').addEventListener('click', () => {
     document.querySelector('.menu-list').classList.toggle('active');
 });
+
+/* Clothing()"> prendas de Vestir </li>
+                <li onclick="Articles()" */
+function Clothing() { window.location.href = "index2.html";
