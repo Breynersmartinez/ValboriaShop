@@ -74,6 +74,6 @@ document.querySelector('.menu-toggle').addEventListener('click', () => {
 
 /* Clothing()"> prendas de Vestir </li>
                 <li onclick="Articles()" */
-function redirectToNewPage() {
+function Clothing() {
     window.location.href = "index2.html";
 }
