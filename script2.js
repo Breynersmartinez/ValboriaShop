@@ -7,6 +7,10 @@ function showOrderForm() {
     document.getElementById('order-form').classList.remove('hidden');
 }
 
+function closeOrderForm() { 
+    document.getElementById('order-form').classList.add('hidden');
+}
+
 function sendOrder() {
     const name = document.getElementById('name').value;
     const phone = document.getElementById('phone').value;
@@ -19,7 +23,7 @@ function sendOrder() {
     const confirmColor = document.getElementById('confirm-color').value;
     const color = document.getElementById('color').value;
     const size = document.getElementById('size').value;
-    const price = "$20.00";
+    const price = "$25000";
 
     const message = `Saludos, mi nombre es: ${name}.
 Acabo de hacer un pedido del producto - ${color} / ${size} por un total de: ${price}.
