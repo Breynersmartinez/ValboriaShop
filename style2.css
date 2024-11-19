@@ -1,4 +1,4 @@
-/* styles.css */
+/* style.css */
 * {
     margin: 0;
     padding: 0;
@@ -12,7 +12,7 @@ body {
 }
 
 header {
-    background-color: #e462b898;
+    background-color: #ff6f61;
     color: white;
     padding: 10px 20px;
     display: flex;
@@ -75,13 +75,13 @@ nav ul li a {
 }
 
 .product-info p {
-    color: #e462b898;
+    color: #ff6f61;
     font-weight: bold;
     margin-bottom: 20px;
 }
 
 .options {
-    margin-bottom: 50px;
+    margin-bottom: 20px;
 }
 
 .options label {
@@ -90,13 +90,13 @@ nav ul li a {
 }
 
 .options select {
-    width: 100px;
+    width: 100%;
     padding: 5px;
     margin-bottom: 10px;
 }
 
 button {
-    background-color: #e462b898;
+    background-color: #ff6f61;
     color: white;
     border: none;
     padding: 10px 20px;
@@ -106,37 +106,39 @@ button {
 }
 
 button:hover {
-    background-color: #e462b898;
+    background-color: #ff4b3e;
 }
 
 .hidden {
     display: none;
 }
 
-#order-form {
-    padding: 20px;
+.modal {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
     background-color: white;
+    padding: 20px;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    margin: 20px;
+    position: relative;
+    width: 80%;
+    max-width: 500px;
 }
 
-#order-form h2 {
-    margin-bottom: 20px;
-}
-
-#order-form form {
-    display: flex;
-    flex-direction: column;
-}
-
-#order-form label {
-    margin-bottom: 5px;
-}
-
-#order-form input {
-    padding: 10px;
-    margin-bottom: 10px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
+.close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 24px;
+    cursor: pointer;
 }
