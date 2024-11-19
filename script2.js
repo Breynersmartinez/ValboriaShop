@@ -29,6 +29,11 @@ Ciudad de destino: ${city}.
 Dirección: ${address}.
 Talla y color: ${confirmSize} / ${confirmColor}.`;
 
-    const whatsappUrl = `https://wa.me/573127138737?text=${encodeURIComponent(message)}`;
+    const whatsappUrl = `https://wa.me/573242367080?text=${encodeURIComponent(message)}`;
     window.open(whatsappUrl, '_blank');
+}
+
+function FirstPage()
+ {
+    window.location.href = "index.html";
 }
